@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Nate Simmons</title>
+  </head>
+  <body id="body">
+    <div id="container">
+      <div id="header"> 
+        <!-- table with picture and name-->
+        <table>
+          <tbody>
+            <tr>
+              <td><img src="Pictures/Portrait.JPG" alt="Portrait" style="width: 178px; height: 178px;"></td>
+              <td>
+                <table>
+                  <!-- Name and contact information -->
+                  <thead><tr><td style="font-size:40px; font-weight:bolder; color:#000">Nate Simmons</td></tr></thead>
+                  <tbody>
+                    <tr style="font-size:15px"><td><a href="mailto:nisimmons01@gmail.com">nisimmons01@gmail.com</a></td></tr>
+                    <tr style="font-size:15px"><td><a href="https://github.com/nisimmons">Github</a></td></tr>
+                    <tr style="font-size:15px"><td><a href="https://www.linkedin.com/in/nathaniel-simmons-0b5526200/">LinkedIn</a></td></tr>
+                    <tr style="font-size:15px"><td>US Citizen</td></tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+      <div id="navbar">
+        <ul id="navlist">
+        <li><a class="active" href="./index.html">Home</a></li>
+        <li><a class="passive" href="./index.html">Research</a></li>
+        <li><a class="passive" href="./index.html">Photography</a></li>
+        <li><a class="passive" href="./index.html">Resume</a></li>
+      </ul>
+      </div>
+      <div id="content">
+        <h1>About me</h1>
+        <p>I'm a Cybersecurity student researcher studying at The University of Texas at Dallas. </p>
+        <p> </p>
+
+              
+      
+      <h2>Education</h2>
+      <h3><strong>University of Texas at Dallas</strong> - Richardson, TX </h3>
+      <p><em><strong></strong>M.S. Computer Science</em> - Expected Graduation -
+        May 2025</p>
+      <ul>
+        <li> Cybersecurity Concentration Track</li>
+        <li>GPA: 3.799</li>
+        <li>NSF CyberCorps: Scholarship for Service Recipient (~37k per year)</li>
+        <li>Coursework: Information Security, Networks, Operating Systems,
+          Artificial Intelligence, Machine Learning</li>
+      </ul>
+      <em></em><em></em>
+      <p><em>B.S. Computer Science - </em>May 2023 </p>
+      <ul>
+        <li>Cum Laude - GPA: 3.837 </li>
+        <li>Dean's List Recipient, Academic Excellence Scholarship Recipient </li>
+        <li>Coursework: Imperative and Declarative programming, Databases,
+          Algorithms, Data Structures</li>
+      </ul>
+      <h3>Hirschi High International Baccalaureate School - Wichita Falls, TX</h3>
+      <p><em>High School Diploma, International Baccalaureate Diploma</em> - May
+        2019</p>
+      <ul>
+        <li>JROTC Battalion Commander</li>
+        <li>Swim Team Captain</li>
+        <li>National Honor Society Member</li>
+      </ul>
+      <ul>
+      </ul>
+      <p><em>CompTIA Security+ Certification</em> - To be completed February 2024</p>
+      <h2>Skills</h2>
+      <p>Cybersecurity: Burp Suite, Ghidra, WireShark, CAN Bus, UART<br>
+        Languages: Java, C++ , Python, Bash scripts, Assembly, SQL, XML, Linux</p>
+      <h2>Projects</h2>
+      <h3>Attendance Tracker Application Senior Capstone Project, Spring 2023
+        (proprietary code)</h3>
+      <ul>
+        <li>Planned a multi-threaded Android Bluetooth client/server application
+          in Java</li>
+        <li>Blueprinted and programmed back end for the system's graphical user
+          interface with Java/XML</li>
+        <li>Coordinated a five person team, delegating responsibilities for
+          developing the application</li>
+      </ul>
+      <h3><a href="https://github.com/nisimmons/Distributed-Roucairol-Carvalho-Algorithm">Distributed
+          Mutual Exclusion Implementation</a> Course Project, November 2023</h3>
+      <ul>
+        <li>Programmed a distributed system of nodes that communicate using TCP
+          sockets in Java and Bash</li>
+        <li>Implemented Roucairol and Carvalho's resource mutual exclusion
+          algorithm with vector clocks</li>
+      </ul>
+      <ul>
+      </ul>
+      <h3><a href="https://github.com/nisimmons/NARPG2">Role-Playing Game System</a>
+        Personal Project, 2022</h3>
+      <ul>
+        <li>Designed graphical user interface and database system from scratch in
+          Java</li>
+        <li>Conceived a three-tiered software design with presentation, service,
+          and data layers with UML</li>
+        <li>Devised procedural game generation with algorithmic enemy and item
+          scaling</li>
+      </ul>
+      <h2>Experience</h2>
+      <img src="Pictures/Wyzant_Logo.jpg" alt="Wzyant logo" style="width: 166px; height: 88px;"><br>
+      <p></p>
+      <h3>Private Java Tutoring - <a href="https://www.wyzant.com/">Wyzant</a>
+        December 2020 - July 2023</h3>
+      <ul>
+        <li>Responded to student requests, scheduled lessons, and formulated
+          lesson plans</li>
+        <li>400 hours tutored with dozens of students from across the country</li>
+        <li>Instructed primarily on dynamic programming, algorithms, and
+          implementing APIs and libraries</li>
+      </ul>
+      <img src="Pictures/Covetly%20logo.png" alt="Covetly logo" style="width: 194px; height: 54px;"><br>
+      <ul>
+      </ul>
+      <h3>Data Analysis Intern - <a href="https://www.ycombinator.com/companies/covetly">Covetly</a>
+        July 2021</h3>
+      <ul>
+        <li>Utilized Excel and pivot tables in order to analyze and make
+          inferences on 400,000 records of sales data</li>
+        <li>Compiled and presented reports to supervisor to influence advertising
+          decisions</li>
+      </ul>
+      <h3>AVID Tutor - Plano ISD October 2019 - December 2020</h3>
+      <ul>
+        <li>Planned and conducted tutorial services for high school students</li>
+        <li>Formulated lesson plans and collaborated with other tutors</li>
+      </ul>
+      <h3>Aircraft Mechanic Assistant - <a href="https://midamericaflightmuseum.com/">Mid-America
+          Flight Museum</a> May 2019 - July 2019</h3>
+      <ul>
+        <li>Utilized various skills in direct and indirect support of the museum
+          including working on airplanes, operating vehicles, cleaning equipment</li>
+      </ul>
+      <ul>
+      </ul>
+      <h2>Activities</h2>
+      <h3>UTD <a href="http://csg.utdallas.edu/">Computer Security Group</a></h3>
+      <ul>
+        <li><a href="https://ctftime.org/team/333">Competitive Cyber team</a> -
+          August 2023 - Current</li>
+        <li>TexSAW CTF</li>
+        <ul>
+          <li>Actively developing problems to be introduced for this CTF</li>
+        </ul>
+        <li>Deadface CTF - Placed 35th/1129 October 2023</li>
+        <li>Sunshine CTF - Placed 32nd/800 October 2023</li>
+        <li>Patriot CTF - Placed 66th/987 September 2023</li>
+      </ul>
+      <h3>Other Cyber Activities</h3>
+      <ul>
+        <li>NSA Code Breakers Challenge September 2023 - December 2023</li>
+        <li>Toyota Hackfesta CTF September 2023 - October 2023</li>
+        <ul>
+          <li>Utilized CAN Bus protocols to interact with Toyota PASTA and RAMN
+            systems</li>
+          <li>Analyzed basic vulnerabilities related to I/O of the systems</li>
+        </ul>
+        <li>TryHackMe - Completing Cyber paths</li>
+      </ul>
+      <h3>Boy Scouts of America</h3>
+      <ul>
+        <li>Eagle Scout - 400+ hours of community service in a multitude of
+          outlets including direct and indirect support of charity organizations.</li>
+        <li>Order of the Arrow Vigil member - Elected by peers to be honored for
+          years of service to local lodge and council</li>
+        <li>James E West Fellow - Order of the Arrow lodge service organization
+          donated $1000 to local Boy Scout council in my name</li>
+      </ul>
+      <h2>Languages</h2>
+      <ul>
+        <li>English - Fluent</li>
+        <li>Japanese - Conversational, basic reading and writing</li>
+        <li>Korean - Basic, reading and writing</li>
+        <li>American Sign Language - Basic</li>
+      </ul>
+      <ul>
+      </ul>
+    </div>
+    </div> 
+  </body>
+</html>

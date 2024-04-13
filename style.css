@@ -1,0 +1,96 @@
+:root {
+	--light-blue: #91cfee;
+	--dark-blue: #2e5165;
+}
+
+#body {
+	max-width: 1000px; /* width of the page */
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	padding: 20px 20px 20px 20px; /* top, right, bottom, left */
+}
+
+#header
+{
+	width: 100%;
+}
+
+#container
+{
+	width: 100%;
+	height: 100%;
+}
+
+#navbar {
+	background: var(--dark-blue);
+	width: min(100%, 95vw);
+	height: 30px;
+  }
+
+#navbar ul  {
+	display: block;
+	list-style: none;
+	margin: 3;
+	padding: 0;
+	text-align: center;
+}
+
+
+#navbar li a.active{
+	display: block;
+	color: #ffffff;
+	border-right: #ffffff 1px solid;
+	background: var(--light-blue);
+	padding: 5px 10px;
+	float: left;
+}
+
+#navbar li a.passive{
+	display: block;
+	color: #ffffff;
+	border-right: #fff 1px solid;
+	background: var(--dark-blue);
+	padding: 5px 10px;
+	float: left;
+}
+
+#content
+{
+	width: 90%;
+	margin: 10 auto;
+}
+
+#image-content
+{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+
+}
+/* .image {
+	height: auto;
+	padding-inline: 1px;
+	margin: auto auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+} */
+
+.landscape  {
+	max-width: 400px;
+	height: auto;
+	padding-inline: 3px;
+}
+
+.portrait  {
+	max-width: 200px;
+	height: auto;
+	padding-inline: 1px;
+}
+
+
