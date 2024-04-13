@@ -70,6 +70,7 @@
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
+	
 
 }
 /* .image {
@@ -85,12 +86,14 @@
 	max-width: 400px;
 	height: auto;
 	padding-inline: 3px;
+	padding-top: 3px;
 }
 
 .portrait  {
 	max-width: 200px;
 	height: auto;
 	padding-inline: 1px;
+	padding-top: 3px;
 }
 
 
