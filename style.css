@@ -23,10 +23,10 @@
 }
 
 #navbar {
-	background: var(--dark-blue);
-	width: min(100%, 95vw);
-	height: 30px;
-  }
+  background: var(--dark-blue);
+  width: min(100%, 100vw - 3em);
+  height: 30px;
+}
 
 #navbar ul  {
 	display: block;
@@ -63,7 +63,7 @@
 
 #image-content
 {
-	width: 100%;
+	width: min(100%, 100vw - 3em);
 	height: 100%;
 	display: flex;
 	flex-direction: row;
@@ -71,7 +71,6 @@
 	justify-content: center;
 	align-items: center;
 	
-
 }
 /* .image {
 	height: auto;
