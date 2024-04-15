@@ -3,25 +3,162 @@
 	--dark-blue: #2e5165;
 }
 
-@media screen and (max-width: 600px) { /* mobile */
+@media screen and (min-width: 320px) { /* ain't no way */
 	#body {
-		max-width: 500px; /* width of the page */
+		max-width: 320px; /* width of the page */
 		margin: 0 auto;
 		width: 100%;
 		height: 100%;
 		padding: 20px 20px 20px 20px; /* top, right, bottom, left */
 	}
-	#h1 {
-		font-size: 1em;
+	thead{
+		font-size:40px; 
+		font-weight:bolder; 
+		color:#000
+	}
+	tbody{
+		font-size: 20px;
+	}
+	h1 {
+		font-size: 3em;
+	}
+	p {
+		font-size: 1.5em;
+	}
+	ul {
+		font-size: 1.5em;
 	}
 }
-#body {
-	max-width: 1000px; /* width of the page */
-	margin: 0 auto;
-	width: 100%;
-	height: 100%;
-	padding: 20px 20px 20px 20px; /* top, right, bottom, left */
+@media screen and (min-width: 480px) { /* mobile */
+	#body {
+		max-width: 480px; /* width of the page */
+		margin: 0 auto;
+		width: 100%;
+		height: 100%;
+		padding: 20px 20px 20px 20px; /* top, right, bottom, left */
+	}
+	#navbar {
+		
+		width: min(100%, 100vw - 3em);
+		height: 38px;
+	}
+	thead{
+		font-size:40px; 
+		font-weight:bolder; 
+		color:#000
+	}
+	tbody{
+		font-size: 20px;
+	}
+	h1 {
+		font-size: 2.5em;
+	}
+	h3{
+		font-size: 1.8em;
+	}
+	p {
+		font-size: 1.8em;
+	}
+	ul{
+		font-size: 1.5em;
+	}
+	ul ul{
+		font-size: 1.2em;
+	
+	}
 }
+@media screen and (min-width: 600px){  /* phablet */
+	#body {
+		max-width: 600px;
+		margin: 0 auto;
+		width: 100%;
+		height: 100%;
+		padding: 20px 20px 20px 20px;
+	}
+	#navbar {
+		background: var(--dark-blue);
+		width: min(100%, 100vw - 3em);
+		height: 38px;
+	}
+	thead{
+		font-size:40px; 
+		font-weight:bolder; 
+		color:#000
+	}
+	tbody{
+		font-size: 18px;
+	}
+	h1 {
+		font-size: 2.5em;
+	}
+	h3{
+		font-size: 1.8em;
+	}
+	p {
+		font-size: 1.8em;
+	}
+	ul{
+		font-size: 1.5em;
+	}
+	ul ul{
+		font-size: 1.0em;
+	
+	}
+}
+@media screen and (min-width: 768px) { /* tablet */
+	#body {
+		max-width: 768px;
+		margin: 0 auto;
+		width: 100%;
+		height: 100%;
+		padding: 20px 20px 20px 20px;
+	}
+	#navbar {
+		background: var(--dark-blue);
+		width: min(100%, 100vw - 3em);
+		height: 38px;
+	}
+	thead{
+		font-size:40px; 
+		font-weight:bolder; 
+		color:#000
+	}
+	tbody{
+		font-size: 20px;
+	}
+	h1 {
+		font-size: 2.5em;
+	}
+	h3{
+		font-size: 1.8em;
+	}
+	p {
+		font-size: 1.8em;
+	}
+	ul{
+		font-size: 1.5em;
+	}
+	ul ul{
+		font-size: 1.0em;
+	
+	}
+}
+@media screen and (min-width: 1024px) { /* desktop */
+	#body {
+		max-width: 1024px;
+		margin: 0 auto;
+		width: 100%;
+		height: 100%;
+		padding: 20px 20px 20px 20px;
+	}
+	h1 {
+		font-size: 2em;
+	}
+	p {
+		font-size: 1.5em;
+	}
+}
+
 
 #header
 {
@@ -34,11 +171,7 @@
 	height: 100%;
 }
 
-#navbar {
-  background: var(--dark-blue);
-  width: min(100%, 100vw - 3em);
-  height: 30px;
-}
+
 
 #navbar ul  {
 	display: block;
