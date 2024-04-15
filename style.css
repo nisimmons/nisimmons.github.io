@@ -151,11 +151,34 @@
 		height: 100%;
 		padding: 20px 20px 20px 20px;
 	}
+	#navbar {
+		background: var(--dark-blue);
+		width: min(100%, 100vw - 3em);
+		height: 36px;
+	}
+	thead{
+		font-size:40px; 
+		font-weight:bolder; 
+		color:#000
+	}
+	tbody{
+		font-size: 20px;
+	}
 	h1 {
 		font-size: 2em;
 	}
-	p {
+	h3{
 		font-size: 1.5em;
+	}
+	p {
+		font-size: 1.4em;
+	}
+	ul{
+		font-size: 1.4em;
+	}
+	ul ul{
+		font-size: 0.9em;
+	
 	}
 }
 
