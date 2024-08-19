@@ -240,14 +240,6 @@
 	align-items: center;
 	
 }
-/* .image {
-	height: auto;
-	padding-inline: 1px;
-	margin: auto auto;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-} */
 
 .landscape  {
 	max-width: 400px;
