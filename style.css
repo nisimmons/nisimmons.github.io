@@ -154,7 +154,7 @@
 	#navbar {
 		background: var(--dark-blue);
 		width: min(100%, 100vw - 3em);
-		height: 36px;
+		height: 41px;
 	}
 	thead{
 		font-size:40px; 
